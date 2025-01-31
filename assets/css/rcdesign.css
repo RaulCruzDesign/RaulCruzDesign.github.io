@@ -11604,6 +11604,7 @@ pre .code {
 .about-section .about-card {
   padding: 60px;
   border-right: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
 }
 
 .about-section .about-card:last-child {
@@ -11675,7 +11676,6 @@ pre .code {
 /* Contenedor de los dos cuadros */
 .skills-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
     gap: 2rem;
     padding: 1rem;
 }
@@ -11766,8 +11766,8 @@ pre .code {
     margin: 10px;
     box-sizing: border-box;
 }
-#portfolio.section{
-	padding-bottom: 50px;
-	padding-top: 0px;
-}
 
+
+a{
+	color: whitesmoke;
+}

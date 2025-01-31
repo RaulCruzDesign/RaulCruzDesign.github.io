@@ -64,64 +64,96 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-              <h3 class="font-weight-light">Who am I ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3">A creative designer focused on delivering user-driven solutions.</h5>
-                <p class="mt-20">Graduate in multimedia with a focus on game design, UX, and product design, skilled in creating user-centered solutions and fostering innovation in interactive experiences.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Email</span> : raulcruzdesign@gmail.com</li>
-                    <li><span>Phone</span> : + (34) 639520228</li>
-                    <li><span>Localization</span> :  Barcelon, Spain</li>
-					<li><span>Birthdate</span> : 04/12/1997</li>
-              </ul>
-                <ul class="social-icons pt-3">
-                  <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/raulcruzdesign/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://github.com/RaulCruzDesign"><i class="ti-github" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://www.instagram.com/raulcruzdesign/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"></a></li>
-                    <li class="social-item"><a class="social-link" href="#"></a></li>
-              </ul>  
-          </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-user icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>UX/UI Design</h6>
-                        <p class="subtitle"> -</p>
-                        <hr>
-                    </div>
+	
+    
+   
+    <!-- portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        New
+                    </a>
+                    <a href="#" data-filter=".product">
+                        Product Design
+                    </a>
+                    <a href="#" data-filter=".videogame">
+                        Videogame Design
+                    </a>
+                    <a href="#" data-filter=".other">
+                    	Other Projects
+                	</a>
                 </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-game icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Videogame Desin&nbsp;&nbsp;</h6>
-                        <p class="subtitle">-</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Product Design</h6>
-                        <p class="subtitle">-</p>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 videogame new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/GrooveGenius.jpg" class="img-fluid" alt="GrooveGenius Videogame Project">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/GrooveGenius.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">GrooveGenius</h6>
+                                    <p class="subtitle">Creation of a Rhythm Game focused on learning drums.</p>
+									<p class="description">Final degree project focused on the conceptualization, design, and prototyping of a music-based video game aimed at teaching drumming skills, utilizing any electronic drum kit as a peripheral.</p>
+									<p class="software"><i class="fa-brands fa-unity"></i> Unity</p>
+									<p class="link"><a href="https://upcommons.upc.edu/handle/2117/416981" target="_blank">Documentation</a></p>
 
-    <!--Resume Section-->
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                   
+                    <div class="col-md-6 col-lg-4 product new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/MovieVerse.jpg" class="img-fluid" alt="MovieVerse Application Mockup Image">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/MovieVerse.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">MovieVerse</h6>
+                                    <p class="subtitle">Prototyping and Development of a Web Application</p>
+									<p class="description">Interactive prototypes in Figma and a responsive React web app with real-time API integration.</p>
+									<p class="link"><a href="https://www.figma.com/proto/oHNdIAiO3n5XzapEWtr993/Figma_Proto_MovieVerse?t=NKDX46HSRBR7rm5q-1" target="_blank">Prototype </a><scan> / </scan><a href="" target="_blank"> GitHub</a></p>
+									
+                                </div>
+                            </div>    
+                        </div>              
+                    </div>
+					 <div class="col-md-6 col-lg-4 product">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">UEP</h6>
+                                    <p class="subtitle">Wireframing and prototyping of a fictional academic website</p>
+									<p class="description">Prototyping in Google Sites and wireframe development in Axure for a fictional academic website.</p>
+									
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 other new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/RaceOfBrothers.jpg" class="img-fluid" alt="Race of Brothers Teaser Image">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/RaceOfBrothers.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Race Of Brothers</h6>
+                                    <p class="subtitle">Opening Production</p>
+									<p class="description">Opening production in After Effects, inspired by Band of Brothers and reimagined as a Formula 1 series.</p>
+									<p class="link"><a href="https://www.youtube.com/watch?v=yvTfgo31210" target="_blank">Youtube</a></p>
+							
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section --> 
+	<!--Resume Section-->
     <section class="section" id="resume">
         <div class="container">
             <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
@@ -197,7 +229,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                       <div class="card">
+                       
     <div class="card-header">
         <h4 class="mt-2">Skills</h4>
         <span class="line"></span>
@@ -261,214 +293,69 @@
             </div>
         </div>
     </div>
-</div>
-
-                    </div>
-                   
+</div>                            
                 </div>
             </div>
         </div>
     </section>
-   
-    <!-- portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
-        <div class="container">
-            <h1 class="mb-5"><span class="text-danger">My</span> portfolio</h1>
-            <div class="portfolio">
-                <div class="filters">
-                    <a href="#" data-filter=".new" class="active">
-                        New
-                    </a>
-                    <a href="#" data-filter=".product">
-                        Product Design
-                    </a>
-                    <a href="#" data-filter=".videogame">
-                        Videogame Design
-                    </a>
-                    <a href="#" data-filter=".other">
-                    	Other Projects
-                	</a>
-                </div>
-                <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 videogame new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/GrooveGenius.jpg" class="img-fluid" alt="GrooveGenius Videogame Project">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/GrooveGenius.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">GrooveGenius</h6>
-                                    <p class="subtitle">Creation of a Rhythm Game focused on learning drums.</p>
-									<p class="description">Final degree project focused on the conceptualization, design, and prototyping of a music-based video game aimed at teaching drumming skills, utilizing any electronic drum kit as a peripheral.</p>
-									<p class="software"><i class="fa-brands fa-unity"></i> Unity</p>
-									<p class="link"><a href="https://upcommons.upc.edu/handle/2117/416981" target="_blank">Documentation</a></p>
-
-                                </div>
-                            </div>   
-                        </div>             
-                    </div>
-                    <div class="col-md-6 col-lg-4 product">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">UEP</h6>
-                                    <p class="subtitle">Wireframing and prototyping of a fictional academic website</p>
-									<p class="description">Final degree project focused on the conceptualization, design, and prototyping of a music-based video game aimed at teaching drumming skills, utilizing any electronic drum kit as a peripheral.</p>
-									<p class="software"><i class="fa-brands fa-unity"> </i></p>
-									<p class="link"><a href="https://upcommons.upc.edu/handle/2117/416981" target="_blank">Documentation</a></p>
-                                </div>
-                            </div> 
-                        </div>                         
-                    </div>
-                    <div class="col-md-6 col-lg-4 product new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/MovieVerse.jpg" class="img-fluid" alt="MovieVerse Application Mockup Image">                         
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/MovieVerse.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">MovieVerse</h6>
-                                    <p class="subtitle">Prototyping and Development of a Web Application</p>
-									<p class="description">Interactive prototypes in Figma and a responsive React web app with real-time API integration.</p>
-									<p class="link"><a href="https://www.figma.com/proto/oHNdIAiO3n5XzapEWtr993/Figma_Proto_MovieVerse?t=NKDX46HSRBR7rm5q-1" target="_blank">Prototype</a></p>
-									<p class="link"><a href="" target="_blank">GitHub</a></p>
-                                </div>
-                            </div>    
-                        </div>              
-                    </div> 
-                    <div class="col-md-6 col-lg-4 web">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-									
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 advertising"> 
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ADVERSITING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 other new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/RaceOfBrothers.jpg" class="img-fluid" alt="Race of Brothers Teaser Image">  
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/RaceOfBrothers.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Race Of Brothers</h6>
-                                    <p class="subtitle">Opening Production</p>
-									<p class="description">Opening production in After Effects, inspired by Band of Brothers and reimagined as a Formula 1 series.</p>
-									<p class="link"><a href="https://www.youtube.com/watch?v=yvTfgo31210" target="_blank">Youtube</a></p>
-							
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div>
-                    <div class="col-md-6 col-lg-4 advertising new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ADVERSITING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ADVERTISING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>
-                                
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div> 
-                        </div>
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>                                                    
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>                                                      
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>                                                   
-                    </div>
-                </div> 
-            </div>  
-        </div>            
-    </section>
-    <!-- End of portfolio section -->
-
-      
+	<section class="about">
+		<div class="container-fluid">
+			<div id="about" class="row about-section">
+			  <div class="col-lg-4 about-card">
+				  <h3 class="font-weight-light">Who am I ?</h3>
+					<span class="line mb-5"></span>
+					<h5 class="mb-3">A creative designer focused on delivering user-driven solutions.</h5>
+					<p class="mt-20">Graduate in multimedia with a focus on game design, UX, and product design, skilled in creating user-centered solutions and fostering innovation in interactive experiences.</p>
+					<button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+				</div>
+			  <div class="col-lg-4 about-card">
+					<h3 class="font-weight-light">Personal Info</h3>
+					<span class="line mb-5"></span>
+					<ul class="mt40 info list-unstyled">
+						<li><span>Email</span> : raulcruzdesign@gmail.com</li>
+						<li><span>Phone</span> : + (34) 639520228</li>
+						<li><span>Localization</span> :  Barcelon, Spain</li>
+						<li><span>Birthdate</span> : 04/12/1997</li>
+				  </ul>
+					<ul class="social-icons pt-3">
+					  <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/raulcruzdesign/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="https://github.com/RaulCruzDesign"><i class="ti-github" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="https://www.instagram.com/raulcruzdesign/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="#"></a></li>
+						<li class="social-item"><a class="social-link" href="#"></a></li>
+				  </ul>  
+			  </div>
+				<div class="col-lg-4 about-card">
+					<h3 class="font-weight-light">Beyond Design</h3>
+					<span class="line mb-5"></span>
+					<div class="row">
+						<div class="col-1 text-danger pt-1"><i class="ti-game icon-lg"></i></div>
+						<div class="col-10 ml-auto mr-3">
+							<h6>Video Games &amp; Board Games</h6>
+							<p class="subtitle"> Encourage analytical thinking, adaptability, and problem-solving while fostering creativity and innovation in interactive experiences.&nbsp;</p>
+							<hr>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-1 text-danger pt-1"><i class="ti-book icon-lg"></i></div>
+						<div class="col-10 ml-auto mr-3">
+							<h6>Reading &amp; Writing</h6>
+							<p class="subtitle">Inspire imagination and narrative development, essential for crafting immersive user experiences</p>
+							<hr>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-1 text-danger pt-1"><i class="ti-target icon-lg"></i></div>
+						<div class="col-10 ml-auto mr-3">
+							<h6>Airsoft &amp; MilSim</h6>
+							<p class="subtitle">Develops tactical planning, decision-making under pressure, and collaboration, strengthening adaptability in dynamic environments.</p>
+							<hr>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">&copy; Created by RaulCruzDesign using "John Doe" template from plantillashtmlgratis.com</p>
