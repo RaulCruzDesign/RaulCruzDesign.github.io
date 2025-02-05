@@ -11675,12 +11675,13 @@ pre .code {
 }
 /* Contenedor de los dos cuadros */
 .skills-grid {
-    display: grid;
-    gap: 2rem;
-    padding: 1rem;
+    flex: 1; 
+    padding: 20px; 
+    text-align: center;
+    border-radius: 10px; 
 }
 
-/* Cada cuadro */
+
 .skills-box {
     background-color: #f8f9fa;
     border-radius: 10px;
@@ -11689,47 +11690,43 @@ pre .code {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Animación de los cuadros al pasar el ratón */
 .skills-box:hover {
     transform: translateY(-10px);
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Títulos de cada cuadro */
 .skills-title {
     font-size: 1.5rem;
     font-weight: 600;
     color: #343a40;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
     border-bottom: 2px solid #f85c70;
-    padding-bottom: 0.5rem;
+    padding-bottom: 15px;
 }
 
-/* Nube de habilidades */
 .skills-cloud {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 10px;
 }
 
-/* Cada habilidad individual */
+
 .skill-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    width:100px;
 }
 
-/* Iconos de habilidades */
+
 .skill-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 0.5rem;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
 }
 
-/* Texto debajo del icono */
 .skill-item span {
     font-size: 1rem;
     font-weight: 500;
@@ -11768,6 +11765,10 @@ pre .code {
 }
 
 
-a{
+a.white{
 	color: whitesmoke;
+}
+
+span.skill{
+	font-size: 13px;
 }
